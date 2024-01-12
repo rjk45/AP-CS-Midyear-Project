@@ -1,3 +1,9 @@
-//hi pt 2 Aahna
-//hi pt 3 Aahna
-//hi pt 4 Aahna
+const dino = document.getElementById("dino");
+
+function jump() {
+    dino.classList.add("jump");
+}
+
+document.addEventListener("keydown", function(event) {
+    jump();
+});

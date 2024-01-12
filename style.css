@@ -42,17 +42,18 @@
 
 #cactus {
     width: 20px;
-    height: 20px;
+    height: 40px;
     position: relative;
+    top: 110px;
+    left: 600px;
+
+    background-image: url("cactus.png");
+    background-size: 20px 40px; 
 }
 
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-}
-
-#board {
-    background-color: blue;
 }
 
 h1 {
