@@ -40,6 +40,12 @@
     }
 }
 
+#cactus {
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
