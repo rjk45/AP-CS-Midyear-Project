@@ -50,12 +50,16 @@
     background-image: url("cactus.png");
     background-size: 20px 40px; 
 
-    animation: block is infinite;
+    animation: block 1s infinite linear;
 }
 
 @keyframes block {
     0% {
         left: 580px;
+    }
+
+    100% {
+        left: -20px;
     }
 }
 
